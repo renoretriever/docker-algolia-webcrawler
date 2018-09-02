@@ -12,4 +12,8 @@ $ docker build --no-cache --rm -t renoretriever/docker-algolia-webcrawler .
 $ docker run -it -e TZ=Asia/Tokyo -v (pwd):/root/ renoretriever/docker-algolia-webcrawler --config config.json
 ```
 
+## References
+
+- [algolia-webcrawler](https://github.com/DeuxHuitHuit/algolia-webcrawler)
+
 
